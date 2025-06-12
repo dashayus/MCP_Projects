@@ -1,0 +1,16 @@
+project:
+  name: MyMCPProject
+  version: 1.0.0
+  description: MCP Server Configuration for Gold Pricing
+
+build:
+  target: dist/
+  main_script: gold_price_server.py
+  dependencies:
+    - mcp[cli]>=1.2.0
+    - mysql-connector-python
+    - httpx
+
+scripts:
+  start: python gold_price_server.py
+  test: pytest tests/

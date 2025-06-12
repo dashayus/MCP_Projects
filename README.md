@@ -1,1 +1,1 @@
-# MCP_Projects
+# MCP_Projects  for my gold price in claude
